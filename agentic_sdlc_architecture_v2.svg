@@ -1,0 +1,549 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1740 1120" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8faff"/><stop offset="100%" stop-color="#ecf0f8"/>
+    </linearGradient>
+    <linearGradient id="navyG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#002B5C"/><stop offset="100%" stop-color="#001a3a"/>
+    </linearGradient>
+    <linearGradient id="blueG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4285F4"/><stop offset="100%" stop-color="#2b6ed9"/>
+    </linearGradient>
+    <linearGradient id="greenG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34A853"/><stop offset="100%" stop-color="#1e7e34"/>
+    </linearGradient>
+    <linearGradient id="orangeG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E86C00"/><stop offset="100%" stop-color="#FF8C2A"/>
+    </linearGradient>
+    <linearGradient id="tealG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#008080"/><stop offset="100%" stop-color="#006060"/>
+    </linearGradient>
+    <linearGradient id="purpleG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7B1FA2"/><stop offset="100%" stop-color="#5c1580"/>
+    </linearGradient>
+    <linearGradient id="redG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EA4335"/><stop offset="100%" stop-color="#c62828"/>
+    </linearGradient>
+    <linearGradient id="amberG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF8F00"/><stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="indigoG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3949AB"/><stop offset="100%" stop-color="#283593"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="2" dy="4" stdDeviation="6" flood-color="#00000018"/></filter>
+    <filter id="shSm"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000012"/></filter>
+    <filter id="shBig"><feDropShadow dx="3" dy="6" stdDeviation="10" flood-color="#00000020"/></filter>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><path d="M0,0 L10,3.5 L0,7 L2.5,3.5Z" fill="#888"/></marker>
+    <marker id="arrW" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><path d="M0,0 L10,3.5 L0,7 L2.5,3.5Z" fill="#4285F4"/></marker>
+    <marker id="arrD" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><path d="M0,0 L10,3.5 L0,7 L2.5,3.5Z" fill="#bbb"/></marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1740" height="1120" fill="url(#bgG)"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="1740" height="62" fill="url(#navyG)"/>
+  <text x="48" y="40" font-size="22" font-weight="700" fill="white" letter-spacing="0.5">Agentic SDLC at Schwab — Persona-Based Orchestration Model (V2)</text>
+  <text x="1700" y="40" text-anchor="end" font-size="11" fill="#ffffff80">Mphasis · March 2026</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  LEFT SIDE — PERSONAS                                           -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+
+  <!-- BA -->
+  <g transform="translate(100,180)" filter="url(#shSm)">
+    <circle cx="0" cy="0" r="42" fill="white" stroke="#E86C00" stroke-width="2.5"/>
+    <circle cx="0" cy="-12" r="10" fill="none" stroke="#E86C00" stroke-width="2"/>
+    <path d="M-16,18 Q-16,3 0,0 Q16,3 16,18" fill="none" stroke="#E86C00" stroke-width="2" stroke-linecap="round"/>
+    <rect x="8" y="-5" width="11" height="14" rx="2" fill="none" stroke="#E86C00" stroke-width="1.3"/>
+    <text x="0" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#E86C00">Business Analyst</text>
+    <text x="0" y="72" text-anchor="middle" font-size="9" fill="#999">Reviews BRDs &amp; Rules</text>
+  </g>
+
+  <!-- Architect -->
+  <g transform="translate(100,350)" filter="url(#shSm)">
+    <circle cx="0" cy="0" r="42" fill="white" stroke="#4285F4" stroke-width="2.5"/>
+    <circle cx="0" cy="-12" r="10" fill="none" stroke="#4285F4" stroke-width="2"/>
+    <path d="M-16,18 Q-16,3 0,0 Q16,3 16,18" fill="none" stroke="#4285F4" stroke-width="2" stroke-linecap="round"/>
+    <path d="M7,-6 L18,9 L7,9 Z" fill="none" stroke="#4285F4" stroke-width="1.3"/>
+    <text x="0" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#4285F4">Architect</text>
+    <text x="0" y="72" text-anchor="middle" font-size="9" fill="#999">DDD &amp; API Design</text>
+  </g>
+
+  <!-- Developer -->
+  <g transform="translate(100,520)" filter="url(#shSm)">
+    <circle cx="0" cy="0" r="42" fill="white" stroke="#34A853" stroke-width="2.5"/>
+    <circle cx="0" cy="-12" r="10" fill="none" stroke="#34A853" stroke-width="2"/>
+    <path d="M-16,18 Q-16,3 0,0 Q16,3 16,18" fill="none" stroke="#34A853" stroke-width="2" stroke-linecap="round"/>
+    <text x="15" y="5" font-size="13" font-weight="700" fill="#34A853">&lt;/&gt;</text>
+    <text x="0" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#34A853">Developer (SME)</text>
+    <text x="0" y="72" text-anchor="middle" font-size="9" fill="#999">Reviews &amp; Validates Code</text>
+  </g>
+
+  <!-- QA -->
+  <g transform="translate(100,690)" filter="url(#shSm)">
+    <circle cx="0" cy="0" r="42" fill="white" stroke="#7B1FA2" stroke-width="2.5"/>
+    <circle cx="0" cy="-12" r="10" fill="none" stroke="#7B1FA2" stroke-width="2"/>
+    <path d="M-16,18 Q-16,3 0,0 Q16,3 16,18" fill="none" stroke="#7B1FA2" stroke-width="2" stroke-linecap="round"/>
+    <path d="M9,-5 L16,-2 L16,6 L13,9 L9,11 L5,9 L2,6 L2,-2 Z" fill="none" stroke="#7B1FA2" stroke-width="1.2"/>
+    <path d="M6,2 L9,6 L15,-1" fill="none" stroke="#7B1FA2" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="0" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#7B1FA2">QA Engineer</text>
+    <text x="0" y="72" text-anchor="middle" font-size="9" fill="#999">Tests &amp; Validation</text>
+  </g>
+
+  <!-- DevOps -->
+  <g transform="translate(100,860)" filter="url(#shSm)">
+    <circle cx="0" cy="0" r="42" fill="white" stroke="#008080" stroke-width="2.5"/>
+    <circle cx="0" cy="-12" r="10" fill="none" stroke="#008080" stroke-width="2"/>
+    <path d="M-16,18 Q-16,3 0,0 Q16,3 16,18" fill="none" stroke="#008080" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="14" cy="0" r="6" fill="none" stroke="#008080" stroke-width="1.4"/>
+    <circle cx="14" cy="0" r="2" fill="#008080"/>
+    <text x="0" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#008080">DevOps Engineer</text>
+    <text x="0" y="72" text-anchor="middle" font-size="9" fill="#999">CI/CD &amp; Deploy</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  ARROWS: Personas → Orchestrator                                -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <path d="M148,170 C220,160 280,230 330,310" stroke="#E86C00" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+  <path d="M325,320 C270,245 215,180 153,180" stroke="#E86C0060" stroke-width="1.3" fill="none" marker-end="url(#arrD)" stroke-dasharray="5,3"/>
+
+  <path d="M148,345 C210,340 270,370 325,400" stroke="#4285F4" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+  <path d="M320,410 C265,395 205,358 153,355" stroke="#4285F460" stroke-width="1.3" fill="none" marker-end="url(#arrD)" stroke-dasharray="5,3"/>
+
+  <line x1="148" y1="515" x2="325" y2="465" stroke="#34A853" stroke-width="2" marker-end="url(#arrW)"/>
+  <line x1="320" y1="475" x2="153" y2="525" stroke="#34A85360" stroke-width="1.3" marker-end="url(#arrD)" stroke-dasharray="5,3"/>
+
+  <path d="M148,680 C210,660 270,580 325,530" stroke="#7B1FA2" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+  <path d="M320,540 C265,600 205,670 153,690" stroke="#7B1FA260" stroke-width="1.3" fill="none" marker-end="url(#arrD)" stroke-dasharray="5,3"/>
+
+  <path d="M148,850 C230,820 290,670 335,560" stroke="#008080" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+  <path d="M330,570 C285,690 225,830 153,855" stroke="#00808060" stroke-width="1.3" fill="none" marker-end="url(#arrD)" stroke-dasharray="5,3"/>
+
+  <!-- Arrow labels -->
+  <text x="228" y="280" text-anchor="middle" font-size="8.5" fill="#E86C00" font-weight="600">approves</text>
+  <text x="255" y="355" text-anchor="middle" font-size="8.5" fill="#4285F4" font-weight="600">reviews</text>
+  <text x="240" y="480" text-anchor="middle" font-size="8.5" fill="#34A853" font-weight="600">validates</text>
+  <text x="228" y="610" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-weight="600">tests</text>
+  <text x="210" y="760" text-anchor="middle" font-size="8.5" fill="#008080" font-weight="600">deploys</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  CENTRAL ORCHESTRATOR AGENT                                     -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <g transform="translate(400,455)" filter="url(#shBig)">
+    <rect x="-68" y="-95" width="136" height="190" rx="22" fill="white" stroke="#4285F4" stroke-width="3"/>
+    <rect x="-34" y="-78" width="68" height="50" rx="14" fill="url(#blueG)"/>
+    <circle cx="-14" cy="-56" r="8" fill="white"/><circle cx="14" cy="-56" r="8" fill="white"/>
+    <circle cx="-14" cy="-56" r="4" fill="#222"/><circle cx="14" cy="-56" r="4" fill="#222"/>
+    <circle cx="-11" cy="-59" r="1.8" fill="white" opacity="0.6"/>
+    <circle cx="17" cy="-59" r="1.8" fill="white" opacity="0.6"/>
+    <rect x="-16" y="-41" width="32" height="5" rx="2.5" fill="white" opacity="0.9"/>
+    <line x1="0" y1="-78" x2="0" y2="-92" stroke="#4285F4" stroke-width="3"/>
+    <circle cx="0" cy="-96" r="5" fill="#FBBC04"/>
+    <line x1="-28" y1="-14" x2="28" y2="-14" stroke="#E3F2FD" stroke-width="1"/>
+    <text x="0" y="6" text-anchor="middle" font-size="15" font-weight="800" fill="#002B5C">Orchestrator</text>
+    <text x="0" y="24" text-anchor="middle" font-size="12" font-weight="600" fill="#4285F4">Agent</text>
+    <text x="0" y="46" text-anchor="middle" font-size="8.5" fill="#888">Routes tasks to</text>
+    <text x="0" y="58" text-anchor="middle" font-size="8.5" fill="#888">sub-agents &amp; tools</text>
+    <text x="0" y="70" text-anchor="middle" font-size="8.5" fill="#888">via invocation context</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  ARROWS: Orchestrator → Sub-Agents (fan right)                  -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- → Intake Agent -->
+  <path d="M474,380 C510,330 530,220 558,155" stroke="#FF8F00" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+  <!-- → Relearn Agent -->
+  <path d="M474,395 C510,360 535,310 558,260" stroke="#3949AB" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+  <!-- → Requirements Agent -->
+  <path d="M474,410 C520,400 540,385 558,370" stroke="#E86C00" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+  <!-- → Design Agent -->
+  <path d="M474,435 C520,430 540,430 558,455" stroke="#4285F4" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+  <!-- → CodeGen Agent -->
+  <line x1="474" y1="460" x2="558" y2="540" stroke="#34A853" stroke-width="2" marker-end="url(#arrW)"/>
+  <!-- → Testing Agent -->
+  <path d="M474,490 C520,530 540,590 558,630" stroke="#7B1FA2" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+  <!-- → Deploy Agent -->
+  <path d="M474,510 C520,570 540,660 558,720" stroke="#008080" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+
+  <text x="525" y="245" text-anchor="middle" font-size="8.5" fill="#888" font-style="italic">invocation</text>
+  <text x="525" y="255" text-anchor="middle" font-size="8.5" fill="#888" font-style="italic">context</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  DOTTED RECTANGLE: LEGACY MODERNIZATION (all 7 agents)         -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <rect x="570" y="85" width="190" height="698" rx="16" fill="none" stroke="#EA4335" stroke-width="2.5" stroke-dasharray="10,5"/>
+  <rect x="586" y="90" width="158" height="24" rx="6" fill="#EA4335"/>
+  <text x="665" y="106" text-anchor="middle" font-size="10.5" font-weight="700" fill="white">LEGACY MODERNIZATION</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  DOTTED RECTANGLE: GREENFIELD (agents 3–7 only)                 -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <rect x="570" y="310" width="190" height="473" rx="16" fill="none" stroke="#34A853" stroke-width="2.5" stroke-dasharray="10,5"/>
+  <rect x="586" y="316" width="120" height="22" rx="6" fill="#34A853"/>
+  <text x="646" y="331" text-anchor="middle" font-size="10" font-weight="700" fill="white">GREENFIELD</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  SUB-AGENTS COLUMN (7 agents)                                   -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+
+  <!-- Agent 0: Intake Agent (Legacy only) -->
+  <g transform="translate(665,150)" filter="url(#shSm)">
+    <rect x="-76" y="-30" width="152" height="60" rx="12" fill="white" stroke="#FF8F00" stroke-width="2"/>
+    <rect x="-64" y="-18" width="26" height="20" rx="5" fill="#FF8F00"/>
+    <circle cx="-57" cy="-11" r="2.5" fill="white"/><circle cx="-45" cy="-11" r="2.5" fill="white"/>
+    <rect x="-58" y="-4" width="12" height="2.5" rx="1" fill="white"/>
+    <text x="10" y="-4" text-anchor="middle" font-size="11" font-weight="700" fill="#FF8F00">Intake</text>
+    <text x="10" y="12" text-anchor="middle" font-size="10" fill="#666">Agent</text>
+    <text x="0" y="25" text-anchor="middle" font-size="7.5" fill="#aaa">Ingest legacy artifacts</text>
+  </g>
+
+  <!-- Agent 1: Relearn Agent (Legacy only) -->
+  <g transform="translate(665,255)" filter="url(#shSm)">
+    <rect x="-76" y="-30" width="152" height="60" rx="12" fill="white" stroke="#3949AB" stroke-width="2"/>
+    <rect x="-64" y="-18" width="26" height="20" rx="5" fill="#3949AB"/>
+    <circle cx="-57" cy="-11" r="2.5" fill="white"/><circle cx="-45" cy="-11" r="2.5" fill="white"/>
+    <rect x="-58" y="-4" width="12" height="2.5" rx="1" fill="white"/>
+    <text x="10" y="-4" text-anchor="middle" font-size="11" font-weight="700" fill="#3949AB">Relearn</text>
+    <text x="10" y="12" text-anchor="middle" font-size="10" fill="#666">Agent</text>
+    <text x="0" y="25" text-anchor="middle" font-size="7.5" fill="#aaa">Extract business rules</text>
+  </g>
+
+  <!-- Agent 2: Requirements -->
+  <g transform="translate(665,370)" filter="url(#shSm)">
+    <rect x="-76" y="-30" width="152" height="60" rx="12" fill="white" stroke="#E86C00" stroke-width="2"/>
+    <rect x="-64" y="-18" width="26" height="20" rx="5" fill="#E86C00"/>
+    <circle cx="-57" cy="-11" r="2.5" fill="white"/><circle cx="-45" cy="-11" r="2.5" fill="white"/>
+    <rect x="-58" y="-4" width="12" height="2.5" rx="1" fill="white"/>
+    <text x="10" y="-4" text-anchor="middle" font-size="11" font-weight="700" fill="#E86C00">Requirements</text>
+    <text x="10" y="12" text-anchor="middle" font-size="10" fill="#666">Agent</text>
+    <text x="0" y="25" text-anchor="middle" font-size="7.5" fill="#aaa">BRD · Gherkin · Rules</text>
+  </g>
+
+  <!-- Agent 3: Design -->
+  <g transform="translate(665,460)" filter="url(#shSm)">
+    <rect x="-76" y="-30" width="152" height="60" rx="12" fill="white" stroke="#4285F4" stroke-width="2"/>
+    <rect x="-64" y="-18" width="26" height="20" rx="5" fill="#4285F4"/>
+    <circle cx="-57" cy="-11" r="2.5" fill="white"/><circle cx="-45" cy="-11" r="2.5" fill="white"/>
+    <rect x="-58" y="-4" width="12" height="2.5" rx="1" fill="white"/>
+    <text x="10" y="-4" text-anchor="middle" font-size="11" font-weight="700" fill="#4285F4">Design</text>
+    <text x="10" y="12" text-anchor="middle" font-size="10" fill="#666">Agent</text>
+    <text x="0" y="25" text-anchor="middle" font-size="7.5" fill="#aaa">DDD · OpenAPI · Arch</text>
+  </g>
+
+  <!-- Agent 4: CodeGen -->
+  <g transform="translate(665,545)" filter="url(#shSm)">
+    <rect x="-76" y="-30" width="152" height="60" rx="12" fill="white" stroke="#34A853" stroke-width="2"/>
+    <rect x="-64" y="-18" width="26" height="20" rx="5" fill="#34A853"/>
+    <circle cx="-57" cy="-11" r="2.5" fill="white"/><circle cx="-45" cy="-11" r="2.5" fill="white"/>
+    <rect x="-58" y="-4" width="12" height="2.5" rx="1" fill="white"/>
+    <text x="10" y="-4" text-anchor="middle" font-size="11" font-weight="700" fill="#34A853">Code Gen</text>
+    <text x="10" y="12" text-anchor="middle" font-size="10" fill="#666">Agent</text>
+    <text x="0" y="25" text-anchor="middle" font-size="7.5" fill="#aaa">Spring · .NET Core · Java</text>
+  </g>
+
+  <!-- Agent 5: Testing -->
+  <g transform="translate(665,635)" filter="url(#shSm)">
+    <rect x="-76" y="-30" width="152" height="60" rx="12" fill="white" stroke="#7B1FA2" stroke-width="2"/>
+    <rect x="-64" y="-18" width="26" height="20" rx="5" fill="#7B1FA2"/>
+    <circle cx="-57" cy="-11" r="2.5" fill="white"/><circle cx="-45" cy="-11" r="2.5" fill="white"/>
+    <rect x="-58" y="-4" width="12" height="2.5" rx="1" fill="white"/>
+    <text x="10" y="-4" text-anchor="middle" font-size="11" font-weight="700" fill="#7B1FA2">Testing</text>
+    <text x="10" y="12" text-anchor="middle" font-size="10" fill="#666">Agent</text>
+    <text x="0" y="25" text-anchor="middle" font-size="7.5" fill="#aaa">Unit · Integration · E2E</text>
+  </g>
+
+  <!-- Agent 6: Deploy -->
+  <g transform="translate(665,725)" filter="url(#shSm)">
+    <rect x="-76" y="-30" width="152" height="60" rx="12" fill="white" stroke="#008080" stroke-width="2"/>
+    <rect x="-64" y="-18" width="26" height="20" rx="5" fill="#008080"/>
+    <circle cx="-57" cy="-11" r="2.5" fill="white"/><circle cx="-45" cy="-11" r="2.5" fill="white"/>
+    <rect x="-58" y="-4" width="12" height="2.5" rx="1" fill="white"/>
+    <text x="10" y="-4" text-anchor="middle" font-size="11" font-weight="700" fill="#008080">Deploy</text>
+    <text x="10" y="12" text-anchor="middle" font-size="10" fill="#666">Agent</text>
+    <text x="0" y="25" text-anchor="middle" font-size="7.5" fill="#aaa">CI/CD · PCF · K8s</text>
+  </g>
+
+  <!-- Vertical spec-flow arrows between all 7 agents -->
+  <line x1="665" y1="184" x2="665" y2="221" stroke="#ddd" stroke-width="1.5" marker-end="url(#arrD)"/>
+  <line x1="665" y1="289" x2="665" y2="336" stroke="#ddd" stroke-width="1.5" marker-end="url(#arrD)"/>
+  <line x1="665" y1="404" x2="665" y2="426" stroke="#ddd" stroke-width="1.5" marker-end="url(#arrD)"/>
+  <line x1="665" y1="494" x2="665" y2="511" stroke="#ddd" stroke-width="1.5" marker-end="url(#arrD)"/>
+  <line x1="665" y1="579" x2="665" y2="601" stroke="#ddd" stroke-width="1.5" marker-end="url(#arrD)"/>
+  <line x1="665" y1="669" x2="665" y2="691" stroke="#ddd" stroke-width="1.5" marker-end="url(#arrD)"/>
+
+  <!-- spec labels -->
+  <text x="684" y="207" font-size="7" fill="#FF8F00" font-weight="600">Artifacts ↓</text>
+  <text x="684" y="318" font-size="7" fill="#3949AB" font-weight="600">Rules ↓</text>
+  <text x="684" y="420" font-size="7" fill="#7B1FA2" font-weight="600">BRD Spec ↓</text>
+  <text x="684" y="507" font-size="7" fill="#4285F4" font-weight="600">API Spec ↓</text>
+  <text x="684" y="594" font-size="7" fill="#34A853" font-weight="600">Code ↓</text>
+  <text x="684" y="684" font-size="7" fill="#7B1FA2" font-weight="600">Tests ↓</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  ARROWS: Sub-Agents → MCP Servers                               -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <path d="M744,150 L830,150" stroke="#FF8F00" stroke-width="1.6" fill="none" marker-end="url(#arrW)"/>
+  <path d="M744,255 L830,255" stroke="#3949AB" stroke-width="1.6" fill="none" marker-end="url(#arrW)"/>
+  <path d="M744,370 L830,370" stroke="#E86C00" stroke-width="1.6" fill="none" marker-end="url(#arrW)"/>
+  <path d="M744,460 L830,460" stroke="#4285F4" stroke-width="1.6" fill="none" marker-end="url(#arrW)"/>
+  <path d="M744,545 L830,545" stroke="#34A853" stroke-width="1.6" fill="none" marker-end="url(#arrW)"/>
+  <path d="M744,635 L830,635" stroke="#7B1FA2" stroke-width="1.6" fill="none" marker-end="url(#arrW)"/>
+  <path d="M744,725 L830,725" stroke="#008080" stroke-width="1.6" fill="none" marker-end="url(#arrW)"/>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  MCP SERVERS PANEL                                              -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <g filter="url(#sh)">
+    <rect x="840" y="85" width="210" height="698" rx="16" fill="white" stroke="#55555530" stroke-width="2"/>
+    <rect x="840" y="85" width="210" height="44" rx="16" fill="#555"/>
+    <rect x="840" y="111" width="210" height="18" fill="#555"/>
+    <circle cx="868" cy="107" r="6" fill="none" stroke="white" stroke-width="1.5"/>
+    <circle cx="880" cy="107" r="6" fill="none" stroke="white" stroke-width="1.5"/>
+    <text x="894" y="113" font-size="14" font-weight="700" fill="white">MCP Servers</text>
+
+    <!-- MCP 1: GitHub / Bitbucket -->
+    <g transform="translate(945,180)">
+      <rect x="-85" y="-25" width="170" height="50" rx="8" fill="#f6f8fa" stroke="#24292f" stroke-width="1.5"/>
+      <circle cx="-55" cy="0" r="12" fill="#24292f"/>
+      <circle cx="-55" cy="-3" r="5" fill="white"/>
+      <ellipse cx="-55" cy="4" rx="7" ry="3.5" fill="white"/>
+      <text x="4" y="-3" text-anchor="middle" font-size="10" font-weight="700" fill="#24292f">GitHub /</text>
+      <text x="4" y="11" text-anchor="middle" font-size="10" font-weight="700" fill="#24292f">Bitbucket</text>
+    </g>
+
+    <!-- MCP 2: Confluence -->
+    <g transform="translate(945,280)">
+      <rect x="-85" y="-25" width="170" height="50" rx="8" fill="#f0f4ff" stroke="#1868DB" stroke-width="1.5"/>
+      <circle cx="-55" cy="0" r="12" fill="#1868DB"/>
+      <text x="-55" y="4" text-anchor="middle" font-size="9" font-weight="700" fill="white">C</text>
+      <text x="4" y="4" text-anchor="middle" font-size="11" font-weight="700" fill="#1868DB">Confluence</text>
+    </g>
+
+    <!-- MCP 3: Jira -->
+    <g transform="translate(945,375)">
+      <rect x="-85" y="-25" width="170" height="50" rx="8" fill="#f0f4ff" stroke="#0052CC" stroke-width="1.5"/>
+      <circle cx="-55" cy="0" r="12" fill="#0052CC"/>
+      <text x="-55" y="4" text-anchor="middle" font-size="9" font-weight="700" fill="white">J</text>
+      <text x="4" y="4" text-anchor="middle" font-size="11" font-weight="700" fill="#0052CC">Jira</text>
+    </g>
+
+    <!-- MCP 4: Testing Tools -->
+    <g transform="translate(945,470)">
+      <rect x="-85" y="-25" width="170" height="50" rx="8" fill="#faf3ff" stroke="#7B1FA2" stroke-width="1.5"/>
+      <circle cx="-55" cy="0" r="12" fill="#7B1FA2"/>
+      <path d="M-61,-3 L-55,5 L-48,-5" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="4" y="-3" text-anchor="middle" font-size="10" font-weight="700" fill="#7B1FA2">Selenium /</text>
+      <text x="4" y="11" text-anchor="middle" font-size="10" font-weight="700" fill="#7B1FA2">Thousand Eyes</text>
+    </g>
+
+    <!-- MCP 5: CI/CD -->
+    <g transform="translate(945,565)">
+      <rect x="-85" y="-25" width="170" height="50" rx="8" fill="#e8f5f5" stroke="#008080" stroke-width="1.5"/>
+      <circle cx="-55" cy="0" r="12" fill="#008080"/>
+      <path d="M-63,-3 Q-63,-8 -58,-8 Q-53,-8 -53,-3 Q-53,2 -58,2 Q-63,2 -63,-3" fill="none" stroke="white" stroke-width="1.3"/>
+      <path d="M-53,-3 Q-53,-8 -48,-8 Q-43,-8 -43,-3 Q-43,2 -48,2 Q-53,2 -53,-3" fill="none" stroke="white" stroke-width="1.3"/>
+      <text x="4" y="-3" text-anchor="middle" font-size="10" font-weight="700" fill="#008080">CI/CD</text>
+      <text x="4" y="11" text-anchor="middle" font-size="10" font-weight="700" fill="#008080">Pipeline</text>
+    </g>
+
+    <!-- MCP 6: PCF / K8s -->
+    <g transform="translate(945,660)">
+      <rect x="-85" y="-25" width="170" height="50" rx="8" fill="#e8f5f5" stroke="#006060" stroke-width="1.5"/>
+      <circle cx="-55" cy="0" r="12" fill="#006060"/>
+      <circle cx="-55" cy="0" r="5" fill="none" stroke="white" stroke-width="1.3"/>
+      <line x1="-55" y1="-9" x2="-55" y2="-5" stroke="white" stroke-width="1.3"/>
+      <line x1="-55" y1="5" x2="-55" y2="9" stroke="white" stroke-width="1.3"/>
+      <text x="4" y="-3" text-anchor="middle" font-size="10" font-weight="700" fill="#006060">PCF /</text>
+      <text x="4" y="11" text-anchor="middle" font-size="10" font-weight="700" fill="#006060">Kubernetes</text>
+    </g>
+
+    <!-- MCP 7: SonarQube -->
+    <g transform="translate(945,740)">
+      <rect x="-85" y="-20" width="170" height="40" rx="8" fill="#fff8e1" stroke="#FF8F00" stroke-width="1.5"/>
+      <circle cx="-55" cy="0" r="12" fill="#FF8F00"/>
+      <text x="-55" y="4" text-anchor="middle" font-size="9" font-weight="700" fill="white">S</text>
+      <text x="4" y="4" text-anchor="middle" font-size="10" font-weight="700" fill="#FF8F00">SonarQube</text>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  ARROWS: Sub-Agents → Vertex AI Search (domain grounding)       -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <path d="M744,135 C820,105 1020,90 1128,155" stroke="#FF8F00" stroke-width="1.4" fill="none" marker-end="url(#arrW)" stroke-dasharray="6,3"/>
+  <path d="M744,240 C820,210 1020,170 1128,190" stroke="#3949AB" stroke-width="1.4" fill="none" marker-end="url(#arrW)" stroke-dasharray="6,3"/>
+  <path d="M744,355 C830,320 1020,240 1128,230" stroke="#E86C00" stroke-width="1.4" fill="none" marker-end="url(#arrW)" stroke-dasharray="6,3"/>
+  <path d="M744,445 C830,400 1020,310 1128,280" stroke="#4285F4" stroke-width="1.4" fill="none" marker-end="url(#arrW)" stroke-dasharray="6,3"/>
+  <path d="M744,530 C830,480 1020,370 1128,330" stroke="#34A853" stroke-width="1.4" fill="none" marker-end="url(#arrW)" stroke-dasharray="6,3"/>
+  <path d="M744,620 C830,560 1020,420 1128,370" stroke="#7B1FA2" stroke-width="1.4" fill="none" marker-end="url(#arrW)" stroke-dasharray="6,3"/>
+  <path d="M744,710 C830,650 1020,470 1128,410" stroke="#008080" stroke-width="1.4" fill="none" marker-end="url(#arrW)" stroke-dasharray="6,3"/>
+  <text x="935" y="130" text-anchor="middle" font-size="8.5" fill="#E86C00" font-style="italic">queries domain knowledge</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  VERTEX AI SEARCH PANEL                                         -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <g filter="url(#sh)">
+    <rect x="1138" y="85" width="560" height="440" rx="18" fill="white" stroke="#E86C0030" stroke-width="2"/>
+    <rect x="1138" y="85" width="560" height="48" rx="18" fill="url(#orangeG)"/>
+    <rect x="1138" y="113" width="560" height="20" fill="url(#orangeG)"/>
+    <circle cx="1168" cy="109" r="10" fill="none" stroke="white" stroke-width="2"/>
+    <line x1="1175" y1="116" x2="1183" y2="124" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="1196" y="115" font-size="15" font-weight="700" fill="white">Vertex AI Search — Domain Knowledge (GCS)</text>
+
+    <!-- Legacy Code -->
+    <g transform="translate(1230,200)">
+      <circle cx="0" cy="0" r="26" fill="#E3F2FD" stroke="#4285F4" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-7" rx="11" ry="4.5" fill="none" stroke="#4285F4" stroke-width="1.6"/>
+      <path d="M-11,-7 L-11,5" stroke="#4285F4" stroke-width="1.6"/><path d="M11,-7 L11,5" stroke="#4285F4" stroke-width="1.6"/>
+      <ellipse cx="0" cy="5" rx="11" ry="4.5" fill="none" stroke="#4285F4" stroke-width="1.6"/>
+      <text x="0" y="42" text-anchor="middle" font-size="9.5" font-weight="600" fill="#555">Legacy Code</text>
+      <text x="0" y="54" text-anchor="middle" font-size="7.5" fill="#aaa">COBOL · .NET · JCL</text>
+    </g>
+
+    <!-- BRDs -->
+    <g transform="translate(1345,200)">
+      <circle cx="0" cy="0" r="26" fill="#E8F5E9" stroke="#34A853" stroke-width="1.5"/>
+      <rect x="-8" y="-13" width="16" height="22" rx="2" fill="none" stroke="#34A853" stroke-width="1.6"/>
+      <line x1="-4" y1="-5" x2="4" y2="-5" stroke="#34A853" stroke-width="1"/><line x1="-4" y1="0" x2="4" y2="0" stroke="#34A853" stroke-width="1"/><line x1="-4" y1="5" x2="3" y2="5" stroke="#34A853" stroke-width="1"/>
+      <text x="0" y="42" text-anchor="middle" font-size="9.5" font-weight="600" fill="#555">BRDs &amp; Docs</text>
+      <text x="0" y="54" text-anchor="middle" font-size="7.5" fill="#aaa">Requirements</text>
+    </g>
+
+    <!-- Schemas -->
+    <g transform="translate(1460,200)">
+      <circle cx="0" cy="0" r="26" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.5"/>
+      <circle cx="0" cy="-7" r="3.5" fill="#7B1FA2"/>
+      <line x1="0" y1="-3" x2="-9" y2="5" stroke="#7B1FA2" stroke-width="1.6"/>
+      <line x1="0" y1="-3" x2="9" y2="5" stroke="#7B1FA2" stroke-width="1.6"/>
+      <circle cx="-9" cy="7" r="3.5" fill="#7B1FA2"/><circle cx="9" cy="7" r="3.5" fill="#7B1FA2"/>
+      <text x="0" y="42" text-anchor="middle" font-size="9.5" font-weight="600" fill="#555">Schemas</text>
+      <text x="0" y="54" text-anchor="middle" font-size="7.5" fill="#aaa">Copybooks · DDL</text>
+    </g>
+
+    <!-- Test Cases -->
+    <g transform="translate(1575,200)">
+      <circle cx="0" cy="0" r="26" fill="#FFF3E0" stroke="#E86C00" stroke-width="1.5"/>
+      <path d="M-9,0 L-3,9 L13,-9" fill="none" stroke="#E86C00" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="0" y="42" text-anchor="middle" font-size="9.5" font-weight="600" fill="#555">Test Cases</text>
+      <text x="0" y="54" text-anchor="middle" font-size="7.5" fill="#aaa">Legacy Tests</text>
+    </g>
+
+    <!-- JCL / Batch -->
+    <g transform="translate(1660,200)">
+      <circle cx="0" cy="0" r="26" fill="#FFF8E1" stroke="#FF8F00" stroke-width="1.5"/>
+      <rect x="-8" y="-11" width="16" height="20" rx="2" fill="none" stroke="#FF8F00" stroke-width="1.6"/>
+      <text x="0" y="3" text-anchor="middle" font-size="8" font-weight="700" fill="#FF8F00">JCL</text>
+      <text x="0" y="42" text-anchor="middle" font-size="9.5" font-weight="600" fill="#555">JCL / Batch</text>
+      <text x="0" y="54" text-anchor="middle" font-size="7.5" fill="#aaa">Scheduling</text>
+    </g>
+
+    <!-- Connector lines to embeddings -->
+    <path d="M1270,245 Q1320,320 1360,335" stroke="#bbb" stroke-width="1" fill="none" stroke-dasharray="4,3"/>
+    <path d="M1385,245 Q1390,320 1385,335" stroke="#bbb" stroke-width="1" fill="none" stroke-dasharray="4,3"/>
+    <path d="M1500,245 Q1460,320 1420,335" stroke="#bbb" stroke-width="1" fill="none" stroke-dasharray="4,3"/>
+
+    <!-- Embeddings -->
+    <g transform="translate(1390,360)">
+      <path d="M0,-13 L3,-4 L13,-4 L5,2 L7,11 L0,5 L-7,11 L-5,2 L-13,-4 L-3,-4 Z" fill="#4285F4"/>
+      <text x="20" y="-1" font-size="12" font-weight="700" fill="#4285F4">Embeddings</text>
+      <text x="20" y="12" font-size="9.5" fill="#888">(Vectors)</text>
+    </g>
+
+    <!-- Arrow → Grounded Match -->
+    <path d="M1390,380 L1390,416" stroke="#34A853" stroke-width="1.6" fill="none" marker-end="url(#arrW)"/>
+    <text x="1390" y="414" text-anchor="middle" font-size="7.5" fill="#aaa">Vector Search</text>
+
+    <!-- Grounded Match -->
+    <g transform="translate(1390,455)">
+      <rect x="-50" y="-22" width="100" height="44" rx="10" fill="#E8F5E9" stroke="#34A853" stroke-width="2"/>
+      <path d="M-14,-5 L-7,5 L16,-10" fill="none" stroke="#34A853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="0" y="38" text-anchor="middle" font-size="11" font-weight="700" fill="#34A853">Grounded Match</text>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  STATE BOX                                                      -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <g transform="translate(1410,640)" filter="url(#sh)">
+    <rect x="-95" y="-40" width="190" height="80" rx="14" fill="white" stroke="#555" stroke-width="2"/>
+    <path d="M-22,-20 L-22,12 L22,12 L22,-10 L5,-10 L0,-20 Z" fill="none" stroke="#555" stroke-width="1.6" stroke-linejoin="round"/>
+    <text x="0" y="56" text-anchor="middle" font-size="14" font-weight="700" fill="#333">Artifacts State</text>
+    <text x="0" y="72" text-anchor="middle" font-size="9" fill="#888">BRDs · OpenAPI · Code · Tests · Deploys</text>
+  </g>
+
+  <!-- Arrow from Grounded Match → State -->
+  <path d="M1410,510 L1410,596" stroke="#555" stroke-width="1.6" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Feedback loop: State → Orchestrator -->
+  <path d="M1315,640 C1100,710 550,760 400,560" stroke="#bbb" stroke-width="1.5" fill="none" marker-end="url(#arrD)" stroke-dasharray="8,4"/>
+  <text x="830" y="730" text-anchor="middle" font-size="9.5" fill="#aaa" font-weight="600">Feedback &amp; Iteration — Results route back through Orchestrator to appropriate persona</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  SPEC-DRIVEN DEV BAR                                            -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <g filter="url(#shSm)">
+    <rect x="1138" y="760" width="560" height="42" rx="8" fill="url(#purpleG)"/>
+    <rect x="1148" y="770" width="13" height="16" rx="2" fill="none" stroke="white" stroke-width="1.2"/>
+    <line x1="1152" y1="776" x2="1157" y2="776" stroke="white" stroke-width="0.8"/>
+    <line x1="1152" y1="780" x2="1157" y2="780" stroke="white" stroke-width="0.8"/>
+    <text x="1168" y="785" font-size="11.5" font-weight="700" fill="white">Spec-Driven Development — Formal Specs as contracts between agent phases</text>
+  </g>
+
+  <!-- PROGRAMS Legend -->
+  <g filter="url(#shSm)">
+    <rect x="1138" y="818" width="560" height="90" rx="12" fill="white" stroke="#002B5C20" stroke-width="1.5"/>
+    <text x="1418" y="838" text-anchor="middle" font-size="11" font-weight="700" fill="#002B5C" letter-spacing="0.5">PROGRAMS</text>
+    <line x1="1158" y1="846" x2="1678" y2="846" stroke="#002B5C15" stroke-width="1"/>
+
+    <rect x="1158" y="858" width="7" height="22" rx="3" fill="#002B5C"/>
+    <text x="1175" y="870" font-size="10.5" font-weight="700" fill="#002B5C">1 Bank Sweep</text>
+    <text x="1175" y="884" font-size="8.5" fill="#888">COBOL → Spring Boot · Custom Agent</text>
+
+    <rect x="1340" y="858" width="7" height="22" rx="3" fill="#4285F4"/>
+    <text x="1357" y="870" font-size="10.5" font-weight="700" fill="#4285F4">2 RPS / SchwabPlan.com</text>
+    <text x="1357" y="884" font-size="8.5" fill="#888">.NET → .NET Core · Lang + ADK</text>
+
+    <rect x="1545" y="858" width="7" height="22" rx="3" fill="#008080"/>
+    <text x="1562" y="870" font-size="10.5" font-weight="700" fill="#008080">3 O2 Batch</text>
+    <text x="1562" y="884" font-size="8.5" fill="#888">COBOL → Spring Batch · Custom</text>
+  </g>
+
+  <!-- Human-in-the-loop badges -->
+  <g filter="url(#shSm)">
+    <rect x="1138" y="924" width="230" height="34" rx="6" fill="white" stroke="#34A853" stroke-width="1.5"/>
+    <circle cx="1158" cy="941" r="7" fill="#34A85315" stroke="#34A853" stroke-width="1"/>
+    <circle cx="1158" cy="938" r="2.5" fill="none" stroke="#34A853" stroke-width="1"/>
+    <path d="M1153,945 Q1153,942 1158,941 Q1163,942 1163,945" fill="none" stroke="#34A853" stroke-width="1"/>
+    <text x="1172" y="946" font-size="9.5" font-weight="600" fill="#34A853">Human-in-the-Loop: Mandatory</text>
+  </g>
+
+  <g filter="url(#shSm)">
+    <rect x="1388" y="924" width="230" height="34" rx="6" fill="white" stroke="#FBBC04" stroke-width="1.5"/>
+    <circle cx="1408" cy="941" r="7" fill="#FBBC0415" stroke="#FBBC04" stroke-width="1"/>
+    <circle cx="1408" cy="938" r="2.5" fill="none" stroke="#FBBC04" stroke-width="1"/>
+    <path d="M1403,945 Q1403,942 1408,941 Q1413,942 1413,945" fill="none" stroke="#FBBC04" stroke-width="1"/>
+    <text x="1422" y="946" font-size="9.5" font-weight="600" fill="#b08900">Human-in-the-Loop: Recommended</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!--  MODERNIZATION TYPE LEGEND (bottom-left)                        -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <g filter="url(#shSm)">
+    <rect x="570" y="810" width="230" height="80" rx="10" fill="white" stroke="#55555520" stroke-width="1.5"/>
+    <text x="685" y="832" text-anchor="middle" font-size="10" font-weight="700" fill="#333" letter-spacing="0.5">MODERNIZATION TYPES</text>
+    <line x1="585" y1="838" x2="785" y2="838" stroke="#eee" stroke-width="1"/>
+
+    <!-- Legacy legend -->
+    <rect x="590" y="848" width="24" height="12" rx="3" fill="none" stroke="#EA4335" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="622" y="859" font-size="9.5" font-weight="600" fill="#EA4335">Legacy Modernization</text>
+    <text x="622" y="871" font-size="7.5" fill="#888">Intake + Relearn + all agents</text>
+
+    <!-- Greenfield legend -->
+    <rect x="590" y="878" width="24" height="12" rx="3" fill="none" stroke="#34A853" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="622" y="889" font-size="9.5" font-weight="600" fill="#34A853">Greenfield Development</text>
+    <text x="622" y="901" font-size="7.5" fill="#888">Req → Design → Code → Test → Deploy</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="1700" y="1110" text-anchor="end" font-size="10" fill="#bbb">© Mphasis 2026  |  Agentic SDLC at Charles Schwab  |  Proprietary &amp; Confidential</text>
+</svg>

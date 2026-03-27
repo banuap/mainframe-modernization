@@ -38,4 +38,12 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# PowerPoint temp files
+~$*.pptx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
 next-env.d.ts
